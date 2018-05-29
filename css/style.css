@@ -30,6 +30,12 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  margin: 0 0 30px 0;
+  text-align: center;
+  font-size: 15px;
+}
+
 img.center {
   display: block;
   margin-left: auto;
@@ -88,6 +94,21 @@ button {
   margin-bottom: 10px;
 }
 
+button.btn-fills {
+  padding: 16px 10px 15px 10px;
+  color: #FFF;
+  background-color: #777;
+  font-size: 15px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 15px;
+  width: 100%;
+  border: 1px solid #777;
+  /* border-width: 1px 1px 3px; */
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
 fieldset {
   margin-bottom: 30px;
   border: none;
@@ -105,3 +126,22 @@ label {
   }
 
 }
+
+/* ORDERS LIST CODE */
+
+
+.forma {
+  /* max-width: 390px; */
+  width: 390px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 10px auto;
+  overflow: hidden;
+  padding: 77px 55px 33px 55px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
