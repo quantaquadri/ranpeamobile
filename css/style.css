@@ -94,17 +94,30 @@ button {
   margin-bottom: 10px;
 }
 
-button.btn-fills {
+button.btn-fillss {
   padding: 16px 10px 15px 10px;
   color: #FFF;
-  background-color: #777;
+  background-color: #EB5E28;
   font-size: 15px;
   text-align: center;
   font-style: normal;
   border-radius: 15px;
   width: 100%;
-  border: 1px solid #777;
-  /* border-width: 1px 1px 3px; */
+  border: 1px solid #EB5E28;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+button.btn-fills {
+  padding: 16px 10px 15px 10px;
+  color: #FFF;
+  background-color: #68B3C8;
+  font-size: 15px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 15px;
+  width: 100%;
+  border: 1px solid #68B3C8;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
 }
